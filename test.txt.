@@ -1,0 +1,116 @@
+
+
+Test Dataset
+
+
+Let's try introducing an initial paragrpah between the H1 and the H2 headings.
+
+This one was typed into WWW and saved. If you have two consecutive headings without any intervening text, the resulting empty normal paragraph looks rather silly if you have a lot of space before/after in your style sheet. 
+
+
+Introduction
+
+This file contains a test set of HTML mark-up, as a test of hypertext browsers and an example of the syntax of the tags. See also:
+
+·	An arbitrary news article
+
+·	The newsgroup on hypertext
+
+·	More details about the WWW project.
+
+That is the end of the list.
+
+
+Some anchors
+
+Anchors come in two forms: whole nodes or parts of nodes.
+
+
+Leading to whole nodes
+
+Here is an anchor which leads to the VM FIND command. Note the nested highlighting (hp2) within the anchor. If you want to click on this, you will go to the system default page.  See also the protected file .
+
+
+Leading to anchors within nodes
+
+Now THIS leads to anchor #2 in this file, and if you want to click on THIS, you should go to the system default page with anchor #2 selected. Now the word "destination" is a named destination anchor, connected to the word "source" . Clicking on the destination shouldn't do anything. Selecting the source should lead to the destination.
+
+Now let's go through the limited set of markup tags which we accept. The title, "Hypertext HTML formatting example" was between TITLE tags. "Test Dataset" at the top of this page was a Level One Heading (H1). The quick brown fox jumps over the lazy dog. In Hertford, Hereford and hampshire, hurricanes hardly happen.
+
+
+Level two heading
+
+Here is some text which follows the heading. The quick brown fox jumps over the lazy dog. In Hertford, Hereford and hampshire, hurricanes hardly happen.
+
+
+Level 3 heading
+
+Here is some text which follows the heading. The quick brown fox jumps over the lazy dog. In Hertford, Hereford and hampshire, hurricanes hardly happen.
+
+This is a test paragraph. It is separated from the previous one by a P paragraph mark.
+
+This new paragraph was separated from the previous one by a blank line, a horrible leftover from SCRIPT, which violates the free format of the text.
+
+This was delimited in the same way in the source. The blank line should have the same effect as a paragraph mark. We have included in HTML some tags from the SGML tagset used at and once supported at CERN by quite a lot of documentation and SGML examples. The HTML parser will ignore tags which it does not understand, and will ignore attributes which it does not understand of CERN-SGML tags. Of course, the HTML parser will not accept any commands in the SCRIPT language.
+
+Now for an example section, in monospaced font:
+
+
+         _-_
+        [o,o]
+         \-/
+
+   This text is laid out using fixed-width characters
+                               -----------
+   It uses the <XMP> tag, and can contain embedded < and > signs. It has
+   tabs every eight columns like good old simple systems we know and love.
+
+12345678123456781234567812345678123456781234567812345678123456781234567812345678
+!	!	!	!	!	!	!	!	!	!	
+Column:	First	Second	Third	Fourth	Fifth	Sixth	Seventh	Eighth	Ninth
+Index:	1	2	3	4	5	6	7	8	9
+Junk:	The	Quick	brown	fox	jumps	over	the	lazy	dog.
+After the example text, we revert to the default again.
+
+
+Glossary
+
+Now lets us try out a glossary.
+
+Glossary	 A list of definitions of terms. Each term is given in a left-hand column, with a longer textual definition being given in a right-hand column.
+
+Term	 A word or phrase being defined.
+
+Definition	 A sentences or sentences which define the term. the definition can wrap around in the second column, but the term can't wrap around in the second column.
+
+And after that dazzling display of formatting, how about an ordered list: (We support it as an unordered list)
+
+·	This is the first element of an ordered list
+
+·	This is the 2nd element of an ordered list. This element contains more text than one would normally expect to fit onto a line. It should wrap around onto the next line(s) with the left margin still indented.
+
+·	This is the 3rd element of an ordered list
+
+·	This is the 4th element of an ordered list
+
+And now, how about an unordered list:
+
+·	This is the first element of an unordered list
+
+·	This is the 2nd element of an unordered list
+
+·	This is the 3rd element of an unordered list
+
+·	This is the 4th element of an unordered list
+
+Now let's try a "LISTING" section.
+
+
+
+123456781234567812345678123456781234567812345678123456781234567812345678123456781234567
+!	!	!	!	!	!	!	!	!	!	!
+Column:	First	Second	Third	Fourth	Fifth	Sixth	Seventh	Eighth	Ninth	Tenth
+Index:	1	2	3	4	5	6	7	8	9	10
+Junk:	The	Quick	borwn	fox	jumps	over	the	lazy	dog	again!
+
+This is the end of the test file.
