@@ -1,0 +1,203 @@
+From rare-wg3-usis-request@mailbase.ac.uk Fri May 29 15:58:15 1992
+Return-Path: <rare-wg3-usis-request@mailbase.ac.uk>
+Received: from dxmint.cern.ch by  nxoc01.cern.ch  (NeXT-1.0 (From Sendmail 5.52)/NeXT-2.0)
+	id AA29530; Fri, 29 May 92 15:58:05 GMT+0200
+Received: by dxmint.cern.ch (dxcern) (5.57/3.14)
+	id AA10251; Fri, 29 May 92 15:56:54 +0200
+Date: 29 May 92 15:00 +0200
+From: Anders Gillner <awg@sunet.sunet.se>
+Sender: rare-wg3-usis-request@mailbase.ac.uk
+To: rare-wg3-usis@newcastle.ac.uk
+Cc: helpdesk@concise.level-7.co.uk, jkrey@isi.edu
+Reply-To: Anders Gillner <awg@sunet.sunet.se>
+Message-Id: <199205291300.AA26153(a)sunic2.sunet.se>
+Subject: Newsletter 4-5/92
+Status: RO
+
+The very first RARE WG-ISUS Newsletter (4+5/92)
+
+
+Ok, I am sorry, You have been waiting too long and I ought to fell
+ashamed and all that, but here I am again after Innsbruck and every-
+thing. Those not present in Innsbruck might wonder about the header,
+but that is what we are today, RARE Working Group Information Services
+and User Support. Jill is chairing, and Erik(which by the way is Erik:-))
+is "godfathering" from the RTC. He better behave, otherwise we will shoot
+his cloud down :-). The last day of the conference it was decided that
+we should merge with the EARN-info group, which we did, and we hope
+that only good things will come out of that. It was also discussed
+in the RIPE community to merge in the RIPE-info group, but I do not
+think that anything was decided. I guess Jill will follow with a lot
+more detail, as she usually does.
+
+The RTR 1 showed up in the participant bags (a nice one), as well as
+a document called "The state of the Union". The latter can be seen on the
+sunic gopher divided into countries, and will soon be followed by RTR 1
+divided in the same way, and of course any other information about your
+network that you are willing to provide me with.
+
+ARCHIE
+
+There is an article in the March edition of NSF Network News about archie
+, giving some new contact addresses to the McGill Archie Group:
+
+		Comments, bugreports etc -> archie-l@cs.mcgill.ca
+
+		Additions and corrections-> archie-admin@cs.mcgill.ca
+		to the present database
+
+For those of you, not familiar with archie:
+
+		telnet to nic.funet.fi, login as archie
+
+simple help is available.
+
+----------
+SMALL NEWS
+----------
+
+HYPER-G
+
+Florian Schnabel from Austria demonstrated their new information
+server in Innsbruck, a very potent thing really, could talk to
+almost everything, gopher and WWW, could show used links, could
+show commands in different laguages, could take uploads from
+personal computers and convert file formats. Florian, I just
+can not wait until you put that up for ftp ! And I hope that
+you notify this list when you do !
+
+"How Did We Get 727.000 Hosts ?"
+
+Article in ConneXions May 1992 by April Marine (vol. 6 No. 5)
+Summary: January 91 376.000 nodes
+         January 92 727.000 nodes
+
+NETF MEETING IN OCTOBER
+
+There will probably be a pre-seminar the day before about
+networked information services the day before. Write to me
+later on this issue
+
+SUPERCOMPUTING -92
+
+Annual high performance computing conference will be held
+in Minneapolis 16-20 of November this year, and some workshops
+will be held there. Examples :
+"The Network is the Computer", K-12 Education and advanced Computing,
+NREN usage, etc.... For further info write to susanc@ncar.ucar.edu
+(Susan Cross)
+
+---------------------------------------------------------
+
+That`s all I have this time, Below follows some history about NORDUnet,
+and a nice diagram showing the Iceland link upgrade :-).
+Some of the links (including that to London) are operational when this
+is written.
+
+Bye for now, and see you in Berlin (or Pisa or whatever !)
+
+regards/awg
+
+
+NORDUnet link upgrades
+----------------------
+
+                             Upgrade history
+
+        Denmark  Norway  Finland  Iceland  Amsterdam  London   US
+-----------------------------------------------------------------
+88         64K     64K      64K                               56K
+890104                                        64K
+890127                              X.25
+900724                              9.6K
+900814                                                        64K
+910108                     128K
+910312            128K
+910315                                                       128K
+910405                                       192K
+910727                     192K
+910912                                                       256K
+911004    128K
+920102                     256K
+920108    256K
+920123            256K
+920331                                       256K
+920406                                                       768K
+920504                     512K
+920507                               56K
+-----------------------------------------------------------------
+
+
+
+Planned and ordered upgrades during 1992
+
+                Current         Upgrade         Delivery
+--------------------------------------------------------
+Amsterdam       256K            512K            920617
+Poland          9.6K             64K            9204 done
+Estonia          -               64K            9204 done
+London           -              256K            9205
+--------------------------------------------------------
+
+Links to Poland and Estonia are now established but do not currently
+carry production traffic. The major problem with Estonia is that the
+top level domain for EE has not yet been registered by the NIC and thus
+names and numbers cannot be mapped in a proper way. The new link to
+Poland will be spilt into a dedicated 9.6 X.25 circuit, a dedicated
+9.6k BSC/EARN circuit until something like VMNET could be use, and the
+rest for pure IP.
+The Ebone link to London will hopefully be in production during next week.
+
+
+History of significant events 9204
+==================================
+
+920403  Ebone/Stockholm starts to be implemented. EBS1 and EBS4(scan-gw)
+        up and running.
+920409  The new 768K US link up and running stable.
+920410  First conntact established via the 64K satelite link between
+        Stockholm and Tallinn (Estonia).
+920428  EBS3 for the Nordic carriers connection to Ebone up and running.
+
+
+One of the more desperatly needed upgrades done was the upgrade from
+9.6Kbps to 56Kbps of the link to Iceland. 64K is currently not available
+on this satellite link to Iceland.
+
+                               NORDUnet -> Iceland kbps
+         50 ++---+-----+----+----+-----+----+----+-----+--**+--**+-----+-***+
+            +    +     +    +    +     +    + ***+     * **** **** *********+
+            |                                 ***   *  * ********* *********+
+         40 ++                               ****   ** * ********* *********+
+            |                                ****** ************** *********|
+            |                                ****** ************** *********+
+            |                                *******************************|
+         30 ++                               *******************************+
+            |                                *******************************+
+            |                                *******************************|
+         20 ++                               *******************************+
+            |                                *******************************|
+            |                                *******************************+
+            |                                *******************************|
+         10 ++   ***                         *******************************+
+            ******************************** *******************************+
+            ********************************+*******************************+
+          0 ****************************************************************+
+            0h   2h    4h   6h   8h   10h  12h  14h   16h  18h  20h   22h  24h
+                                      time (MET)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
