@@ -1,0 +1,3 @@
+cp WorldWideWeb.debug WorldWideWeb.app/WorldWideWeb
+cp WorldWideWeb.debug /LocalApps/WorldWideWeb.app/WorldWideWeb
+cp WorldWideWeb.debug /timbl/Apps/WorldWideWeb.app/WorldWideWeb
