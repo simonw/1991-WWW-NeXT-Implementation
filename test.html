@@ -1,0 +1,103 @@
+<TITLE>Hypertext HTML formatting example</TITLE>
+<NEXTID 12>
+<H1>Test Dataset</H1>Let's try introducing an initial paragrpah between the H1 and the
+H2 headings.<P>
+This one was typed into WWW and saved. If you have two consecutive
+headings without any intervening text, the resulting empty normal
+paragraph looks rather silly if you have a lot of space before/after
+in your style sheet.  Link to <A NAME=11 HREF=junk.html>new</A> page.
+<H2>Introduction</H2>This file contains a test set of HTML mark-up, as a test of hypertext
+browsers and an example of the syntax of the tags. See also:
+<UL>
+<LI><A NAME=0 HREF=news:1990Oct17.231522.17662@midway.uchicago.edu>An arbitrary news article</A>
+<LI><A NAME=1 HREF=news:alt.hypertext>The newsgroup on hypertext</A>
+<LI><A NAME=2 HREF=../../hypertext/WWW/TheProject.html>More details about the WWW project.</A>
+</UL>That is the end of the list.
+<H2>Some anchors</H2>Anchors come in two forms: whole nodes or parts of nodes.
+<H3>Leading to whole nodes</H3>Here is an anchor which leads to <A NAME=3 HREF=http://crnvmc/FIND/PUB.P.HELPCMS.FIND(X,G)>the VM FIND command.</A> Note the nested
+highlighting (hp2) within the anchor. If you want to click on <A NAME=4 HREF=/usr/local/lib/WWW/default.html>this,</A>
+you will go to the system default page.  See also the <A NAME=10 HREF=../../hypertext/WWW/Test/protected.html>protected file</A>
+.
+<H3>Leading to anchors within nodes</H3>Now <A NAME=5 HREF=#2>THIS</A> leads to anchor #2 in this file, and if you want to click
+on <A NAME=6 HREF=/usr/local/lib/WWW/default.html#2>THIS,</A> you should go to the system default page with anchor #2 selected.
+Now the word <A NAME=dest1>"destination"</A> is a named destination anchor, connected
+to the word <A NAME=7 HREF=#dest1>"source"</A> . Clicking on the destination shouldn't do anything.
+Selecting the source should lead to the destination.<P>
+Now let's go through the limited set of markup tags which we accept.
+The title, "Hypertext HTML formatting example" was between TITLE tags.
+"Test Dataset" at the top of this page was a Level One Heading (H1).
+The quick brown fox jumps over the lazy dog. In Hertford, Hereford
+and hampshire, hurricanes hardly happen.
+<H2>Level two heading</H2>Here is some text which follows the heading. The quick brown fox jumps
+over the lazy dog. In Hertford, Hereford and hampshire, hurricanes
+hardly happen.
+<H3>Level 3 heading</H3>Here is some text which follows the heading. The quick brown fox jumps
+over the lazy dog. In Hertford, Hereford and hampshire, hurricanes
+hardly happen.<P>
+This is a test paragraph. It is separated from the previous one by
+a P paragraph mark.<P>
+This new paragraph was separated from the previous one by a blank
+line, a horrible leftover from SCRIPT, which violates the free format
+of the text.<P>
+This was delimited in the same way in the source. The blank line should
+have the same effect as a paragraph mark. We have included in HTML
+some tags from the SGML tagset used at and once supported at CERN
+by<A NAME=8 HREF=http://crnvmc/FIND?SGML> quite a lot of documentation and SGML examples.</A> The HTML parser
+will ignore tags which it does not understand, and will ignore attributes
+which it does not understand of CERN-SGML tags. Of course, the HTML
+parser will not accept any commands in the<A NAME=9 HREF=http://crnvmc/FIND/pub.p.helpcms.xscript> SCRIPT</A> language.<P>
+Now for an example section, in monospaced font:
+<XMP>
+         _-_
+        [o,o]
+         \-/
+
+   This text is laid out using fixed-width characters
+                               -----------
+   It uses the <XMP> tag, and can contain embedded < and > signs. It has
+   tabs every eight columns like good old simple systems we know and love.
+
+12345678123456781234567812345678123456781234567812345678123456781234567812345678
+!	!	!	!	!	!	!	!	!	!	
+Column:	First	Second	Third	Fourth	Fifth	Sixth	Seventh	Eighth	Ninth
+Index:	1	2	3	4	5	6	7	8	9
+Junk:	The	Quick	brown	fox	jumps	over	the	lazy	dog.
+</XMP>After the example text, we revert to the default again.
+<H3>Glossary</H3>Now lets us try out a glossary.
+<DL>
+<DT>Glossary
+<DD> A list of definitions of terms. Each term is given in a left-hand
+column, with a longer textual definition being given in a right-hand
+column.
+<DT>Term
+<DD> A word or phrase being defined.
+<DT>Definition
+<DD> A sentences or sentences which define the term. the definition
+can wrap around in the second column, but the term can't wrap around
+in the second column.
+</DL>
+And after that dazzling display of formatting, how about an ordered
+list: (We support it as an unordered list)
+<UL>
+<LI>This is the first element of an ordered list
+<LI>This is the 2nd element of an ordered list. This element contains
+more text than one would normally expect to fit onto a line. It should
+wrap around onto the next line(s) with the left margin still indented.
+<LI>This is the 3rd element of an ordered list
+<LI>This is the 4th element of an ordered list
+</UL>And now, how about an unordered list:
+<UL>
+<LI>This is the first element of an unordered list
+<LI>This is the 2nd element of an unordered list
+<LI>This is the 3rd element of an unordered list
+<LI>This is the 4th element of an unordered list
+</UL>Now let's try a "LISTING" section.
+<LISTING>
+
+123456781234567812345678123456781234567812345678123456781234567812345678123456781234567
+!	!	!	!	!	!	!	!	!	!	!
+Column:	First	Second	Third	Fourth	Fifth	Sixth	Seventh	Eighth	Ninth	Tenth
+Index:	1	2	3	4	5	6	7	8	9	10
+Junk:	The	Quick	borwn	fox	jumps	over	the	lazy	dog	again!
+
+</LISTING>This is the end of the test file.
